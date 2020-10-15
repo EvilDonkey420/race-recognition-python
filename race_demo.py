@@ -35,8 +35,7 @@ for box in boxes:
     # Print race on the output image
     cv2.putText(img, text, (box[0], box[1] + 20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0))
 
-
-cv2.imshow('image',img)
 cv2.imwrite('out.png', img)
+cv2.imshow('image',img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
