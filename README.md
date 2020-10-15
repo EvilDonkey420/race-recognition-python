@@ -6,6 +6,10 @@
 
 A Python example for using [Spectrico's race classifier](http://spectrico.com/race-recognition.html). It consists of a face detector for finding the faces, and a classifier to recognize the race of the detected faces. The face detector is an implementation of MTCNN (Tensorflow backend). The classifier is based on MobileNet (Tensorflow backend). Tested under Windows 10 and Ubuntu.
 
+The recognized races are: White, Hispanic, Black, Asian and East Indian.
+
+The race classifier is released as an open-source project to help AI researchers overcome the racial bias in facial recognition algorithms.
+
 Here is a web demo to test it: [Age, Gender and Race Recognition Demo](http://spectrico.com/demo-face-demographics.html)
 
 ![image](https://github.com/spectrico/race-recognition-python/blob/main/asian.jpg?raw=true)
